@@ -26,7 +26,7 @@ yum install vnc vnc-server
     - CentOS 6采用的是TigerVNC替代VNC
 
   ```
-wget http://download.Fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget https://raw.githubusercontent.com/catonisland/Vagex-For-CentOS-6/master/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
 yum groupinstall xfce
 yum install tigervnc tigervnc-server
